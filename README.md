@@ -1,6 +1,7 @@
 
 
 # Activate a virtual environment to install Python packages.
+python3 -m venv face_detection_venv
 source face_detection_venv/bin/activate
 
 
