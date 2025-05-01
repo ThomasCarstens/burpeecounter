@@ -6,11 +6,11 @@ A Python-based tool for automatically detecting and counting burpees from workou
 
 ## Overview
 
-This project helps you analyze your workout videos to count burpees automatically. It works by:
+This project sought to find out if Felix reached 1000 burpees in one video. It does not verify the full motion of the exercise, instead it works by:
 1. Extracting frames from your video 
 2. Analyzing the frames to detect your head position
 3. Keeping only the frames with the head in the top position ([example](https://drive.google.com/file/d/1X-Tt01s4wq5E0Yd5OBaNq0yrPR0Uf4IO/view?usp=sharing))
-4. Visualizing these head frames over time so that each burpee can easily be counted.
+4. Graphing these head frames over time so that you can count burpees and crosscheck any parasitic frames.
 
 ![Burpee Detection Results](counter_editedpics.png)
 
