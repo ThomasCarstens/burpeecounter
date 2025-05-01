@@ -6,7 +6,7 @@ A Python-based tool for automatically detecting and counting headshots from work
 
 ## Overview
 
-I sought to find out if Felix reached 1000 burpees in one video. I collected headshots in the top position instead of verifying the full motion of each burpee. 
+Felix needed to make sure he did 1000 burpees. I collected headshots in the top burpee position instead of verifying the full motion of each burpee. 
 
 ![Burpee Detection Results](counter_editedpics.png)
 
