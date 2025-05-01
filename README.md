@@ -2,19 +2,22 @@
 
 # Burpee Counter
 
-A Python-based tool for automatically detecting and counting burpees from workout videos.
+A Python-based tool for automatically detecting and counting headshots from workout videos.
 
 ## Overview
 
-This project sought to find out if Felix reached 1000 burpees in one video. It does not verify the full motion of the exercise, instead it works by:
+I sought to find out if Felix reached 1000 burpees in one video. I collected headshots in the top position instead of verifying the full motion of each burpee. 
+
+![Burpee Detection Results](counter_editedpics.png)
+
+In this example there are 19 sets of 50 burpees. Each set is a large red line made up of 50 sublines (zoom in on top subsection to count them).
+
+It works by:
 1. Extracting frames from your video 
 2. Analyzing the frames to detect your head position
 3. Keeping only the frames with the head in the top position ([example](https://drive.google.com/file/d/1X-Tt01s4wq5E0Yd5OBaNq0yrPR0Uf4IO/view?usp=sharing))
 4. Graphing these head frames over time so that you can count burpees within sets but also crosscheck any parasitic frames.
 
-![Burpee Detection Results](counter_editedpics.png)
-
-In this example there are 19 sets of 50 burpees. Each set is a large red line made up of 50 sublines (zoom in on top subsection to count them).
 
 ## Setup Instructions
 
